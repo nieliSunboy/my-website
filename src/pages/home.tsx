@@ -86,6 +86,7 @@ const Home: React.FC = ({ Component }: any) => {
     <Layout>
       <main className="pt-20 ">
         {/** WelcomeSmooth  暂时不开放 */}
+
         <WelcomeSmooth></WelcomeSmooth>
 
         {/** Overview 概览介绍 */}

@@ -17,7 +17,7 @@ import Image from "next/image";
       desc: '支持最新 Vue Feature、ESM 依赖引入，在线编辑、TS 校验',
     },
     {
-      title: '资源社区',
+      title: '资源社区', 
       icon: '',
       desc: '上千款自定义组件资源，开放的社区生态，一键引入，即拿即用'
     },

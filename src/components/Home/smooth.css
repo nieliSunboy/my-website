@@ -1,0 +1,30 @@
+.website-slogan{
+  width: 651px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
+  visibility: visible;
+  z-index: 2;
+
+  position: absolute;
+  text-align: center;
+  will-change: transform;
+}
+
+.slogan-title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.website-slogan .des{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 400;
+  justify-content: center;
+  opacity: .8;
+}

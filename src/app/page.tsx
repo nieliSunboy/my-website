@@ -1,11 +1,6 @@
-import Link from "next/link";
+"use client";
+import Home from "../pages/home";
 
 export default function page() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between mt-20">
-      <Link href="/home" className="mt-10">
-        Go to About Page
-      </Link>
-    </main>
-  );
+  return <Home></Home>;
 }
